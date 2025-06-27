@@ -1,0 +1,40 @@
+{
+  "translation_key": "item.tinkers_battle_spades.battle_spade",
+  "icon": {
+    "item": "tinkers_battle_spades:battle_spade",
+    "nbt": {
+      "tic_display": true,
+      "tic_materials": ["tconstruct:ui_render#head", "tconstruct:ui_render#handle", "tconstruct:ui_render#extra", "tconstruct:ui_render#large", "tconstruct:ui_render#extra_large"]
+    }
+  },
+  "sortIndex": 10,
+  "input_slots": [
+    {
+      "filter": {
+        "item": "tconstruct:adze_head"
+      },
+      "icon": "tconstruct:adze_head",
+      "translation_key": "item.tconstruct.adze_head",
+      "x": 33,
+      "y": 42
+    },
+    {
+      "filter": {
+        "item": "tconstruct:tool_handle"
+      },
+      "icon": "tconstruct:tool_handle",
+      "translation_key": "item.tconstruct.tool_handle",
+      "x": 15,
+      "y": 60
+    },
+    {
+      "filter": {
+        "item": "tconstruct:small_blade"
+      },
+      "icon": "tconstruct:small_blade",
+      "translation_key": "item.tconstruct.small_blade",
+      "x": 53,
+      "y": 22
+    }
+  ]
+}

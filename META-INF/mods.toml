@@ -1,0 +1,23 @@
+modLoader="lowcodefml"
+loaderVersion="*"
+issueTrackerURL="https://github.com/Xenon372/TinkersBattleSpades/issues"
+license="MIT"
+[[mods]]
+    modId="tinkers_battle_spades"
+    version="1.0.0"
+    displayName="Tinkers' Battle Spades"
+    description='''
+    A Thing Pack for Tinkers' Construct.
+    '''
+[[dependencies.tinkers_battle_spades]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.9.1,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tinkers_battle_spades]]
+    modId="jsonthings"
+    mandatory=true
+    versionRange="[0.9.9,)"
+    ordering="NONE"
+    side="BOTH"
