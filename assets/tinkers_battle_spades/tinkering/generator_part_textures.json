@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "parts": [
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/blade",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/blade_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/shovel",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/shovel_broken",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/handle",       "stat_type": "tconstruct:handle" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "blade":  "tinkers_battle_spades:item/tool/battle_spade/blade_broken",
+    "shovel":  "tinkers_battle_spades:item/tool/battle_spade/shovel_broken",
+    "handle":  "tinkers_battle_spades:item/tool/battle_spade/handle"
+  },
+  "modifier_roots": [ "tinkers_battle_spades:item/tool/battle_spade/modifiers/" ],
+  "parts": [
+    { "name": "blade",  "index": 0 },
+    { "name": "shovel", "index": 1 },
+    { "name": "handle", "index": 2 }
+  ]
+}
