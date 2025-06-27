@@ -1,0 +1,14 @@
+{
+  "tool": "tinkers_battle_spades:battle_spade",
+  "text": [
+    { "text": "The Battle Spade is a sharpened shovel made for both digging and fighting." }
+  ],
+  "properties": [
+    "+1 Attack Damage",
+    "90% Attack Modifier",
+    "1.2 Attack Speed",
+	"70% Mining Multiplier",
+    "110% Durability Multiplier",
+	"Pathing"
+  ]
+}

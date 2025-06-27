@@ -1,0 +1,12 @@
+{
+  "tool": "tinkers_battle_spades:battle_spade",
+  "text": [
+    { "text": "A shovel fit for a knight." }
+  ],
+  "properties": [
+    "Hits things",
+	"Medium Damage",
+    "Creates paths",
+	"Effective on dirt and gravel, among other things"
+  ]
+}
