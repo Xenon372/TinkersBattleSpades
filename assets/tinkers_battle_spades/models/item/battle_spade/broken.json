@@ -8,8 +8,9 @@
   },
   "modifier_roots": [ "tinkers_battle_spades:item/tool/battle_spade/modifiers/" ],
   "parts": [
-    { "name": "blade",  "index": 0 },
-    { "name": "shovel", "index": 1 },
-    { "name": "handle", "index": 2 }
+    { "name": "blade",  "index": 2 },
+    { "name": "shovel", "index": 0 },
+    { "name": "handle", "index": 1 }
   ]
 }
+
