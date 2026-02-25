@@ -40,7 +40,8 @@
   },
   {
     "type": "tconstruct:traits",
-    "traits": [{ "name": "tconstruct:pathing", "level": 1 }]
+    "traits": [{ "name": "tconstruct:pathing", "level": 1 },
+	{ "name": "tconstruct:bane_of_sssss", "level": 2 }]
   },
   {
     "type": "tconstruct:tool_actions",
