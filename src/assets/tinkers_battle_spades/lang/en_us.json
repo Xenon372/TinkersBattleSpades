@@ -1,0 +1,19 @@
+{
+  "itemGroup.tinkers_battle_spades.tinkers_battle_spades": "Tinkers' Battle Spades",
+  
+  "item.tinkers_battle_spades.battle_spade": "Battle Spade",
+  "item.tinkers_battle_spades.battle_spade.description": "The Battle Spade is a sharpened shovel made for both digging and fighting.",
+  
+  "modifier.tinkers_battle_spades.big_dig": "Big Dig",
+  "modifier.tinkers_battle_spades.big_dig.flavor": "A landscaper's emergency weapon!",
+  "modifier.tinkers_battle_spades.big_dig.description": "Mining blocks increases attack damage",
+  "modifier.tinkers_battle_spades.big_dig.attack_damage": "Big Dig Damage",
+  
+  "item.tinkers_battle_spades.drillspear": "Drillspear",
+  "item.tinkers_battle_spades.drillspear.description": "The Drillspear is a broad mining tool made for digging long tunnels.",
+  
+  "modifier.tinkers_battle_spades.turbodrill": "Turbodrill",
+  "modifier.tinkers_battle_spades.turbodrill.flavor": "Combat-fueled digging!",
+  "modifier.tinkers_battle_spades.turbodrill.description": "Hitting things increases mining speed",
+  "modifier.tinkers_battle_spades.turbodrill.mining_speed": "Turbodrill Speed"
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "tinkers_battle_spades:drillspear",
+  "text": [
+    { "text": "The Drillspear is a broad mining tool made for digging long tunnels." },
+    { "text": "\n" },
+    { "text": "Expanders increase the depth mined, allowing for more effective tunnel boring." },
+    { "text": "\n" },
+    { "text": "Hitting mobs grants +0.25 mining speed per hit, up to +16." }
+  ],
+  "properties": [
+    "+3 Attack Damage",
+    "115% Attack Modifier",
+    "0.8 Attack Speed",
+	"60% Mining Multiplier",
+    "245% Durability Multiplier",
+    "Turbodrill";
+    "Piercing III"
+  ]
+}

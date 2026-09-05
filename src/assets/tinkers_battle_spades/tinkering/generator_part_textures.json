@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "parts": [
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/blade",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/blade_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/shovel",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/shovel_broken",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/battle_spade/handle",       "stat_type": "tconstruct:handle" },
+	
+    { "path": "tinkers_battle_spades:item/tool/drillspear/head",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/head_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/edges",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/edges_broken",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/binding",       "stat_type": "tconstruct:binding" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/handle",       "stat_type": "tconstruct:handle" },
+	
+    { "path": "tinkers_battle_spades:item/tool/drillspear/large/head",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/large/head_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/large/edges",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/large/edges_broken",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/large/binding",       "stat_type": "tconstruct:binding" },
+    { "path": "tinkers_battle_spades:item/tool/drillspear/large/handle",       "stat_type": "tconstruct:handle" }
+  ]
+}

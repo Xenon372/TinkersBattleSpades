@@ -1,0 +1,45 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:capacity_bar",
+      "flat": 64
+    },
+    {
+      "type": "tconstruct:melee_capacity",
+      "grant": {
+        "flat": 1
+      },
+      "run_before": false,
+      "tool": {
+        "type": "tconstruct:not_broken"
+      }
+    },
+    {
+      "type": "tconstruct:mining_capacity",
+      "grant": {
+        "flat": -1
+      }
+    },
+    {
+      "type": "tconstruct:conditional_mining_speed",
+      "formula": [
+        "$charge",
+        0.25,
+        "*",
+        "$speed",
+        "+"
+      ],
+      "percent": false,
+      "stat": "tconstruct:mining_speed",
+      "variables": {
+        "charge": {
+          "type": "tconstruct:mod_data",
+          "key": "tinkers_battle_spades:turbodrill",
+          "source": "persistent"
+        }
+      }
+    }
+  ],
+  "tooltip_display": "always"
+}

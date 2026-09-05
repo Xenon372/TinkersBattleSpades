@@ -1,0 +1,42 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:capacity_bar",
+      "flat": 64
+    },
+    {
+      "type": "tconstruct:mining_capacity",
+      "grant": {
+        "flat": 1
+      },
+      "run_before": false,
+      "tool": {
+        "type": "tconstruct:not_broken"
+      }
+    },
+    {
+      "type": "tconstruct:melee_capacity"
+    },
+    {
+      "type": "tconstruct:conditional_melee_damage",
+      "formula": [
+        "$charge",
+        0.25,
+        "*",
+        "$damage",
+        "+"
+      ],
+      "percent": false,
+      "stat": "tconstruct:attack_damage",
+      "variables": {
+        "charge": {
+          "type": "tconstruct:mod_data",
+          "key": "tinkers_battle_spades:big_dig",
+          "source": "persistent"
+        }
+      }
+    }
+  ],
+  "tooltip_display": "always"
+}

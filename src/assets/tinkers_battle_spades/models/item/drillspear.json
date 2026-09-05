@@ -1,0 +1,37 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":  "tinkers_battle_spades:item/tool/drillspear/head",
+    "edges":  "tinkers_battle_spades:item/tool/drillspear/edges",
+    "binding":  "tinkers_battle_spades:item/tool/drillspear/binding",
+    "handle":  "tinkers_battle_spades:item/tool/drillspear/handle",
+	
+    "large_head":  "tinkers_battle_spades:item/tool/drillspear/large/head",
+    "large_edges":  "tinkers_battle_spades:item/tool/drillspear/large/edges",
+    "large_binding":  "tinkers_battle_spades:item/tool/drillspear/large/binding",
+    "large_handle":  "tinkers_battle_spades:item/tool/drillspear/large/handle"
+  },
+  "modifier_roots": {
+	  "small": [ "construct_arsenal:item/tool/helix_blade/modifiers/" ],
+	  "large": [ "construct_arsenal:item/tool/helix_blade/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [-3, 4],
+  "parts": [
+    { "name": "head",  "index": 0 },
+    { "name": "edges", "index": 1 },
+    { "name": "binding", "index": 2 },
+    { "name": "handle", "index": 3 }
+  ],
+  "overrides": [
+	{
+	  "predicate": { "tconstruct:charging": 2 },
+      "model": "tinkers_battle_spades:item/drillspear/blocking"
+	},
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "tinkers_battle_spades:item/drillspear/broken"
+    }
+  ]
+}

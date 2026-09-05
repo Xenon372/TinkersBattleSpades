@@ -1,0 +1,17 @@
+{
+  "tool": "tinkers_battle_spades:drillspear",
+  "text": [
+    { "text": "The Drillspear is a broad mining tool. It harvests blocks in a straight line." },
+    { "text": "\n" },
+	{ "text": "It is optimal for strip mining and digging long, thin tunnels." },
+    { "text": "\n" },
+    { "text": "A drill head on a stick? §oBoring!§r" }
+  ],
+  "properties": [
+    "Advanced mining tool",
+    "1x1x3 AoE Mining",
+	"Effective on stone and ores",
+	"Bonus piercing damage",
+	"Mines faster if you hit things"
+  ]
+}
