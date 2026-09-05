@@ -39,6 +39,22 @@
           "source": "persistent"
         }
       }
+    },
+    {
+      "type": "tconstruct:attribute",
+      "unique": "construct_arsenal.modifier.range",
+      "attribute": "forge:reach_distance",
+      "operation": "addition",
+      "each_level": 1.0,
+      "slots": [ "mainhand" ]
+    },
+    {
+      "type": "tconstruct:attribute",
+      "unique": "construct_arsenal.modifier.range",
+      "attribute": "forge:attack_range",
+      "operation": "addition",
+      "each_level": 1.0,
+      "slots": [ "mainhand" ]
     }
   ],
   "tooltip_display": "always"
